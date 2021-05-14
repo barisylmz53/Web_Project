@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{ /* anasayfa resmim kısmı */
+    text-decoration: none;
+    color: #fff;
+}
+html{
+    font-family: "Open Sans",sans-serif;
+}
+/*Üst kısım CSS*/
+#navbar{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 0.75rem;
+    height: 70px;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center; 
+}
+#navbar ul li a{
+    padding: 0.5rem;
+}
+#navbar ul li a:hover{
+    background: #336ea2;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+#home img{
+    max-width: 30%;
+    height: auto;
+    border-radius: 100%;
+}
+/* #home .name{
+    text-align: center;
+} */
+#home .name h2{
+    margin-bottom: 0.75rem;
+    text-align: center;
+}
+#home .name p{
+    opacity: 0.6;
+}
+/* #home a{
+    margin-top: 1.25rem;
+    background: #336ea2;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 1px;
+}
+#home a:hover{
+    color: #336ea2;
+    background: #fff;
+    border: 0.5px solid #336ea2;
+} */
+/* Training Section */
+#myself{
+    color: #fff;
+    padding: 1rem;
+}
+#myself .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#myself .items .item{
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+#myself .items .item:hover{
+    color: honeydew;
+    opacity: 0.7;
+}
+
+/* Course */
+#panels{
+    color: #333;
+    padding: 1rem;
+}
+.panels{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.panels .panel{
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.panels .panel .panel-image{
+    margin-right: 0.5rem;
+    position: relative;
+}
+.panels .panel .panel-image img{
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+}
+.panels .panel .panel-info .title{
+    letter-spacing: 1.2px;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+.panels .panel .panel-info .description{
+    margin-bottom: 00.25rem;
+    opacity: 0.6;
+}
+
+#contact{
+    color: #fff;
+    padding: 1rem;
+}
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
