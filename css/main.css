@@ -134,3 +134,40 @@ html{
     flex-direction: column;
 }
 
+/* ozgecmis */
+
+#cv-ortapanel{
+    padding-left: 15%;
+    padding-top: 5%;
+    flex-direction: column;
+}
+#cv-ortapanel .items .item h3{
+    font-size: 24px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #336ea2;
+    line-height: 24px;
+    border-bottom: 1px solid #336ea2;
+    position: relative;
+}
+#cv-ortapanel .items .item h3 i{
+    padding-right: 1%;
+}
+#cv-ortapanel .items .item p{
+    padding-top: 1%;
+}
+#cv-ortapanel .items .item .cv-bilgiler{
+    padding-top: 1%;
+}
+#cv-ortapanel .items .item .cv-bilgiler span{
+    float: right;
+    padding-right: 20%;
+}
+#cv-ortapanel .items .item .cv-egitim{
+    padding-top: 1%;
+}
+#cv-ortapanel .items .item .cv-egitim span{
+    float: right;
+    padding-right: 20%;
+}
+
