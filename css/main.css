@@ -89,6 +89,7 @@ html{
 }
 
 /* Course */
+
 #panels{
     color: #333;
     padding: 1rem;
@@ -140,6 +141,7 @@ html{
     padding-left: 15%;
     padding-top: 5%;
     flex-direction: column;
+    padding-right: 15%;
 }
 #cv-ortapanel .items .item h3{
     font-size: 24px;
@@ -161,13 +163,27 @@ html{
 }
 #cv-ortapanel .items .item .cv-bilgiler span{
     float: right;
-    padding-right: 20%;
 }
 #cv-ortapanel .items .item .cv-egitim{
     padding-top: 1%;
 }
 #cv-ortapanel .items .item .cv-egitim span{
     float: right;
-    padding-right: 20%;
 }
 
+/* istanbul */
+
+#istanbul-ortapanel{
+    padding-left: 10%;
+    padding-top: 2%;
+    padding-right: 15%;
+    flex-direction: column;
+}
+#istanbul-ortapanel .items .item h3{
+    font-size: 24px;
+    color: #336ea2;
+    border-bottom: 1px solid #333;
+}
+#istanbul-ortapanel .items .item .istanbul-bilgiler span{
+    float: right;
+}
