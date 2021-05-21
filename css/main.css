@@ -187,3 +187,33 @@ html{
 #istanbul-ortapanel .items .item .istanbul-bilgiler span{
     float: right;
 }
+
+/* kultur */
+
+#kultur-ortapanel{
+    padding-left: 10%;
+    padding-top: 2%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+    flex-direction: column;
+}
+#kultur-ortapanel .items .item h3{
+    font-size: 24px;
+    color: #336ea2;
+    border-bottom: 1px solid #333;
+    padding-top: 1%;
+}
+#kultur-ortapanel .items .item p{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#kultur-ortapanel .items .item .img{
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+#kultur-ortapanel .items .item .kultur-bilgiler label{
+    font-weight: bold;
+}
+#kultur-ortapanel .items .item .kultur-bilgiler span{
+    float: right;
+}
