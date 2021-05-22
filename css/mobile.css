@@ -1,0 +1,17 @@
+#navbar{
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    overflow: hidden;
+    height: 80px;
+}
+#myself .items{
+    flex-direction: column;
+}
+#myself .items .item{
+    width: 100%;
+}
+.panels .panel{
+    flex-direction: column;
+    text-align: center;
+}

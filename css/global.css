@@ -64,5 +64,8 @@ p{
     resize: none;
     border-radius: 5px;
 }
-
+.container2{
+    max-width: 1100px;
+    margin: 0 auto;
+}
 

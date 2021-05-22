@@ -56,19 +56,7 @@ html{
 #home .name p{
     opacity: 0.6;
 }
-/* #home a{
-    margin-top: 1.25rem;
-    background: #336ea2;
-    padding: 0.8rem 3rem;
-    border-radius: 7px;
-    letter-spacing: 1px;
-}
-#home a:hover{
-    color: #336ea2;
-    background: #fff;
-    border: 0.5px solid #336ea2;
-} */
-/* Training Section */
+/* Myself Section */
 #myself{
     color: #fff;
     padding: 1rem;
