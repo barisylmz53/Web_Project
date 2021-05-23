@@ -15,3 +15,7 @@
     flex-direction: column;
     text-align: center;
 }
+#kultur-ortapanel .items .item .img{
+    max-width: 100%;
+    height: auto;
+}

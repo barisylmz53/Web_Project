@@ -196,6 +196,7 @@ html{
     padding-bottom: 1%;
 }
 #kultur-ortapanel .items .item .img{
+    height: 400px;
     padding-top: 2%;
     padding-bottom: 1%;
 }
